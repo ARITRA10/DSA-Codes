@@ -41,11 +41,18 @@ int main() {
     n = 10;
     //printArray(fourth, 10);
 
-    //initialising all locations with 1 [not possible with below line]
-    int fifth[10] = {1};
+    //initialising all locations with 1 
+    int size = 6;
+    int val = 1;
+    
+    int fifth[size];
+    
+    for (int i = 0; i<size;i++){
+        fifth[i] = val;
+    }
 
-    n = 10;
-    //printArray(fifth, 10);
+    
+    //printArray(fifth, 6);
 
     int fifthSize = sizeof(fifth)/sizeof(int);
     cout<<" Size of Fifth is " << fifthSize <<endl;
