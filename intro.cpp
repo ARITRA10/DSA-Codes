@@ -42,8 +42,15 @@ int main() {
     //printArray(fourth, 10);
 
     //initialising all locations with 1 [not possible with below line]
-    int fifth[10] = {1};
-
+    int size = 6;
+    int val = 1;
+    
+    int arrray[size];
+    
+    for (int i = 0; i<size;i++){
+        arrray[i] = val;
+    }
+    
     n = 10;
     //printArray(fifth, 10);
 
